@@ -87,3 +87,18 @@ small {
   text-align: left;
   color: var(--alert);
 }
+
+@media (max-width: 960px) {
+  .wrapper {
+    width: 60%;
+  }
+}
+
+@media (max-width: 550px) {
+  .container {
+    min-height: 70vh;
+  }
+  .wrapper {
+    width: 90%;
+  }
+}
